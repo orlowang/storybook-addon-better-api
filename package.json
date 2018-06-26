@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-better-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/cjs/storybook-addon-better-api.js",
   "module": "lib/es/storybook-addon-better-api.js",
   "repository": "git@github.com:owcc/storybook-addon-better-api.git",
