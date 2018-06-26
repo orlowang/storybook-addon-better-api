@@ -9,11 +9,13 @@ const Observable = (channel, api) => {
   }
 }
 
-addons.register('warmleaf/betterDoc', api => {
-  const ob = Observable(addons.getChannel(), api)
+export function register() {
+  addons.register('warmleaf/betterDoc', api => {
+    const ob = Observable(addons.getChannel(), api)
 
-  addons.addPanel('warmleaf/betterDoc/panel', {
-    title: 'API',
-    render: () => <APIPanel ob={ob} />
+    addons.addPanel('warmleaf/betterDoc/panel', {
+      title: 'API',
+      render: () => <APIPanel ob={ob} />
+    })
   })
-})
+}

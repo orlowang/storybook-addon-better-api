@@ -2,7 +2,7 @@ import React from 'react'
 import addons from '@storybook/addons'
 import APIDoc from './components/APIDoc'
 import getPropDefinitions from './getPropDefinitions'
-
+export { register } from './register'
 
 function addInfo(context, options, demo) {
   const { kind, story } = context
