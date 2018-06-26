@@ -1,0 +1,35 @@
+{
+  "lib/es/flex.js": {
+    "bundled": 10588,
+    "minified": 6228,
+    "gzipped": 2297,
+    "treeshaked": {
+      "rollup": {
+        "code": 4062,
+        "import_statements": 179
+      },
+      "webpack": {
+        "code": 5214
+      }
+    }
+  },
+  "lib/es/storybook-addon-better-api.js": {
+    "bundled": 10588,
+    "minified": 6228,
+    "gzipped": 2297,
+    "treeshaked": {
+      "rollup": {
+        "code": 4062,
+        "import_statements": 179
+      },
+      "webpack": {
+        "code": 5214
+      }
+    }
+  },
+  "lib/cjs/storybook-addon-better-api.js": {
+    "bundled": 45057,
+    "minified": 23728,
+    "gzipped": 7657
+  }
+}
