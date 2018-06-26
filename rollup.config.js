@@ -32,7 +32,9 @@ export default [
     },
     external: ['react', 'prop-types', '@storybook/addons'],
     plugins: [
-      resolve(),
+      resolve({
+        preferBuiltins: true
+      }),
       replace({ 'process.env.NODE_ENV': JSON.stringify('development') }),
       babel({
         exclude: 'node_modules/**',
@@ -69,7 +71,9 @@ export default [
       babel({
         exclude: 'node_modules/**',
       }),
-      commonjs(),
+      // commonjs({
+      //   include: 'node_modules/**'
+      // }),
       sizeSnapshot(),
       terser({
         output: {

@@ -14,22 +14,22 @@
     }
   },
   "lib/es/storybook-addon-better-api.js": {
-    "bundled": 10588,
-    "minified": 6228,
-    "gzipped": 2297,
+    "bundled": 16915,
+    "minified": 9540,
+    "gzipped": 3189,
     "treeshaked": {
       "rollup": {
-        "code": 4062,
+        "code": 6758,
         "import_statements": 179
       },
       "webpack": {
-        "code": 5214
+        "code": 7957
       }
     }
   },
   "lib/cjs/storybook-addon-better-api.js": {
-    "bundled": 45057,
-    "minified": 23728,
-    "gzipped": 7657
+    "bundled": 51584,
+    "minified": 27239,
+    "gzipped": 8524
   }
 }
